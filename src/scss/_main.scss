@@ -1,0 +1,25 @@
+.btn-group {
+    border-radius: 0 !important;
+}
+
+.list-group-item {
+    border: none !important;
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+.list-group {
+    border: none;
+    border-radius: 0 !important;
+
+    &:first-of-type {
+        border-right: var(--mo-list-group-border-width) solid var(--mo-list-group-border-color);
+    }
+
+    &:nth-last-of-type(2) {
+        border: var(--mo-list-group-border-width) solid var(--mo-list-group-border-color);
+        border-top: none;
+    }
+}
