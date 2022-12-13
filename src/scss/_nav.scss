@@ -21,3 +21,8 @@ select:focus {
 ul:has(a) > li:hover {
     transform: scale(1.1);
 }
+
+a:has(img) > img:hover {
+    transition: 0.5s;
+    transform: rotate(-360deg) !important;
+}
