@@ -14,12 +14,24 @@
     border: none;
     border-radius: 0 !important;
 
-    &:first-of-type {
-        border-right: var(--mo-list-group-border-width) solid var(--mo-list-group-border-color);
-    }
+    @media (min-width: 992px) {
+        &:first-of-type {
+            border-right: var(--mo-list-group-border-width) solid var(--mo-list-group-border-color);
+        }
 
-    &:nth-last-of-type(2) {
-        border: var(--mo-list-group-border-width) solid var(--mo-list-group-border-color);
-        border-top: none;
+        &:nth-last-of-type(2) {
+            border: var(--mo-list-group-border-width) solid var(--mo-list-group-border-color);
+            border-top: none;
+        }
     }
+}
+
+.carousel-caption {
+    background-color: white;
+    opacity: 0.7;
+}
+
+.animated-button {
+    display: block;
+    animation: breathing 2s linear infinite normal;
 }

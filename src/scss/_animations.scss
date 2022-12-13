@@ -1,0 +1,30 @@
+@keyframes breathing {
+  0% {
+    transform: translateX(0%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  22% {
+    transform: translateX(1%);
+  }
+  24% {
+    transform: translateX(-1%);
+  }
+  26% {
+    transform: translateX(1%);
+  }
+  28% {
+    transform: translateX(-1%);
+  }
+  30% {
+    transform: translateX(1%);
+  }
+  32% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
