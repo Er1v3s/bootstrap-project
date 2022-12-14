@@ -1,18 +1,22 @@
-.btn-group {
-    border-radius: 0 !important;
+section > .box {
+    border-bottom: 1px solid lightgrey;
 }
 
-.list-group-item {
-    border: none !important;
-
-    &:hover {
-        color: $primary;
-    }
+.btn-group {
+    border-radius: 0 !important;
 }
 
 .list-group {
     border: none;
     border-radius: 0 !important;
+
+    &-item {
+        border: none !important;
+
+        &:hover {
+            color: $primary;
+        }
+    }
 
     @media (min-width: 992px) {
         &:first-of-type {
@@ -26,12 +30,17 @@
     }
 }
 
+.carousel-inner {
+    border-radius: 1%;
+}
+
 .carousel-caption {
+    border-radius: 1%;
     background-color: white;
     opacity: 0.7;
 }
 
 .animated-button {
     display: block;
-    animation: breathing 2s linear infinite normal;
+    animation: shaking 3s linear infinite normal;
 }
