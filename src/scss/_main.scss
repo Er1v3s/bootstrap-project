@@ -1,4 +1,5 @@
-section > .box {
+section > .box,
+section > aside.list-group {
     border-bottom: 1px solid lightgrey;
 }
 
@@ -30,8 +31,16 @@ section > .box {
     }
 }
 
+#pc_article_content {
+    max-height: 640px;
+    overflow: hidden;
+}
+
 .carousel-inner {
     border-radius: 1%;
+    max-width: calc(640px * 1.5);
+    max-height: calc(426px * 1.5);
+    margin: 0 auto;
 }
 
 .carousel-caption {
