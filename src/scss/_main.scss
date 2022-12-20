@@ -34,19 +34,19 @@ section > aside.list-group {
 #pc_article_content {
     max-height: 640px;
     overflow: hidden;
-}
 
-.carousel-inner {
-    border-radius: 1%;
-    max-width: calc(640px * 1.5);
-    max-height: calc(426px * 1.5);
-    margin: 0 auto;
-}
+    .carousel-inner {
+        border-radius: 1%;
+        max-width: calc(640px * 1.5);
+        max-height: calc(426px * 1.5);
+        margin: 0 auto;
+    }
 
-.carousel-caption {
-    border-radius: 1%;
-    background-color: white;
-    opacity: 0.7;
+    .carousel-caption {
+        border-radius: 1%;
+        background-color: white;
+        opacity: 0.7;
+    }
 }
 
 .animated-button {
