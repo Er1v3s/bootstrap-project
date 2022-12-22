@@ -552,7 +552,7 @@
 
         </section>
 
-        <section class="m-2 m-lg-3 m-xxl-5">
+        <section class="container-fluid">
 
             <aside class="container mb-5">
                 <ul class="nav justify-content-center">
@@ -597,17 +597,19 @@
 
             <div class="container-fluid mb-5">
                 <div class="row justify-content-between">
-                    <div class="col-12 col-lg-7 d-flex flex-column justify-content-between p-0">
+                    <!-- col-12 col-lg-7 d-flex flex-column justify-content-between -->
+                    <div class="p-0 col-12 col-lg-8 pe-lg-3">
 
-                        <article class="card card-body mb-5 mb-lg-0">
+                        <article class="card card-body mb-5">
                             <h5 class="card-title">Polecane</h5>
+
                             <div id="carouselExampleControls" class="carousel carousel-dark slide"
                                 data-bs-ride="carousel">
                                 <div class="carousel-inner">
 
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item p-2 active">
                                         <div class="row">
-                                            <div class="col-lg-4">
+                                            <div class="col-6 col-md-4 col-lg-3 col-xxl-2 p-1">
                                                 <div class="card">
                                                     <img src="assets/pc1.jpg" class="card-img-top" alt="...">
                                                     <div class="card-body">
@@ -623,7 +625,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4">
+
+                                            <div class="col-6 col-md-4 col-lg-3 col-xxl-2 p-1">
                                                 <div class="card">
                                                     <img src="assets/pc2.jpg" class="card-img-top" alt="...">
                                                     <div class="card-body">
@@ -640,7 +643,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-lg-4">
+                                            <div class="d-none d-md-block col-md-4 col-lg-3 col-xxl-2 p-1">
                                                 <div class="card">
                                                     <img src="assets/pc3.jpg" class="card-img-top" alt="...">
                                                     <div class="card-body">
@@ -656,12 +659,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
 
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-lg-4">
+                                            <div class="d-none d-lg-block col-lg-3 col-xxl-2 p-1">
                                                 <div class="card">
                                                     <img src="assets/pc4.jpg" class="card-img-top" alt="...">
                                                     <div class="card-body">
@@ -678,9 +677,9 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-lg-4">
+                                            <div class="d-none d-xxl-block col-xxl-2 p-1">
                                                 <div class="card">
-                                                    <img src="assets/pc1.jpg" class="card-img-top" alt="...">
+                                                    <img src="assets/pc5.jpg" class="card-img-top" alt="...">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Card title</h5>
                                                         <p class="card-text">This is a longer card with supporting text
@@ -695,15 +694,17 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-lg-4">
+                                            <div class="d-none d-xxl-block col-xxl-2 p-1">
                                                 <div class="card">
                                                     <img src="assets/pc1.jpg" class="card-img-top" alt="...">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text">This is a longer card with supporting text
+                                                        <p class="card-text">This is a longer card with supporting
+                                                            text
                                                             below as a
                                                             natural
-                                                            lead-in to additional content. This content is a little bit
+                                                            lead-in to additional content. This content is a little
+                                                            bit
                                                             longer.</p>
                                                         <p class="card-text d-inline-block"><strong
                                                                 class="text-danger">19.99$</strong>
@@ -714,21 +715,129 @@
                                         </div>
                                     </div>
 
+                                    <div class="carousel-item p-2">
+                                        <div class="row">
+                                            <div class="col-6 col-md-4 col-lg-3 col-xxl-2 p-1">
+                                                <div class="card">
+                                                    <img src="assets/pc1.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a longer card with supporting text
+                                                            below as a
+                                                            natural
+                                                            lead-in to additional content. This content is a little bit
+                                                            longer.</p>
+                                                        <p class="card-text d-inline-block"><strong
+                                                                class="text-danger">19.99$</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-6 col-md-4 col-lg-3 col-xxl-2 p-1">
+                                                <div class="card">
+                                                    <img src="assets/pc2.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a longer card with supporting text
+                                                            below as a
+                                                            natural
+                                                            lead-in to additional content. This content is a little bit
+                                                            longer.</p>
+                                                        <p class="card-text d-inline-block"><strong
+                                                                class="text-danger">19.99$</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-none d-md-block col-md-4 col-lg-3 col-xxl-2 p-1">
+                                                <div class="card">
+                                                    <img src="assets/pc3.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a longer card with supporting text
+                                                            below as a
+                                                            natural
+                                                            lead-in to additional content. This content is a little bit
+                                                            longer.</p>
+                                                        <p class="card-text d-inline-block"><strong
+                                                                class="text-danger">19.99$</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-none d-lg-block col-lg-3 col-xxl-2 p-1">
+                                                <div class="card">
+                                                    <img src="assets/pc4.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a longer card with supporting text
+                                                            below as a
+                                                            natural
+                                                            lead-in to additional content. This content is a little bit
+                                                            longer.</p>
+                                                        <p class="card-text d-inline-block"><strong
+                                                                class="text-danger">19.99$</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-none d-xxl-block col-xxl-2 p-1">
+                                                <div class="card">
+                                                    <img src="assets/pc5.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a longer card with supporting text
+                                                            below as a
+                                                            natural
+                                                            lead-in to additional content. This content is a little bit
+                                                            longer.</p>
+                                                        <p class="card-text d-inline-block"><strong
+                                                                class="text-danger">19.99$</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="d-none d-xxl-block col-xxl-2 p-1">
+                                                <div class="card">
+                                                    <img src="assets/pc1.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This is a longer card with supporting
+                                                            text
+                                                            below as a
+                                                            natural
+                                                            lead-in to additional content. This content is a little
+                                                            bit
+                                                            longer.</p>
+                                                        <p class="card-text d-inline-block"><strong
+                                                                class="text-danger">19.99$</strong>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
                             </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
                         </article>
 
-                        <article class="card card-body mb-5 mb-lg-0">
+                        <article class="card card-body mb-5">
                             <h5 class="card-title">Najnowsze</h5>
                             <div id="carouselExampleControls2" class="carousel carousel-dark slide"
                                 data-bs-ride="carousel">
@@ -1023,9 +1132,9 @@
                         </article>
                     </div>
 
-                    <aside class="col-12 col-lg-4 card mb-lg-5 mt-5 mt-lg-0 p-0">
-                        <h2 class="text-bg-danger
-                    rounded p-2 text-center">STRZAŁ DNIA</h2>
+                    <!-- col-12 col-lg-3 card mb-lg-5 mt-5 mt-lg-0 -->
+                    <aside class="card col-12 col-lg-4 p-0 ">
+                        <h2 class="text-bg-danger rounded p-2 text-center">STRZAŁ DNIA</h2>
                         <img src="assets/pc3.jpg" class="card-img-top p-2" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -1227,8 +1336,8 @@
                 </div>
             </article>
 
-
         </section>
+
     </main>
 
     <footer class="m-5 p-3 bg-white rounded">
