@@ -53,3 +53,15 @@ section > aside.list-group {
     display: block;
     animation: shaking 3s linear infinite normal;
 }
+
+.custome-card {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.newest-class {
+    @media (min-width: 1725px) {
+        display: block !important;
+    }
+}
