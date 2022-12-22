@@ -1630,9 +1630,9 @@
 
     </main>
 
-    <footer class="p-3 bg-white border-1 row">
+    <footer class="container-fluid row m-auto pt-5 pb-5 bg-white justify-content-between">
 
-        <nav class="col-12 mb-5">
+        <nav class="mb-5">
             <h6>Drogi internauto, dotarłeś na sam dół naszej strony...</h6>
             <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, vel. Velit, voluptates fuga
                 asperiores iusto, placeat perspiciatis possimus in esse eum quam accusamus laborum iste hic sit
@@ -1645,7 +1645,7 @@
                 dolorum.</small>
         </nav>
 
-        <section class="col-4 text-center">
+        <section class="col-12 col-sm-6 col-lg-4 text-center">
             <label for="exampleFormControlInput1" class="form-label w-100">
                 <h5>Masz jakiś problem? Napisz do nas!</h5>
             </label>
@@ -1664,24 +1664,41 @@
             </div>
         </section>
 
-        <section class="col-4">
+        <section class="col-12 col-sm-6 col-lg-4 row m-auto m-sm-0 mb-3">
 
+            <div class="col-6 text-start d-flex flex-column justify-content-around">
+                <a href="#" class="btn btn-light w-100">O nas</a>
+                <a href="#" class="btn btn-light w-100">Dane firmy</a>
+                <a href="#" class="btn btn-light w-100">Współpraca</a>
+                <a href="#" class="btn btn-light w-100">Nagrody</a>
+                <a href="#" class="btn btn-light w-100">Kariera</a>
+                <a href="#" class="btn btn-light w-100">Regulamin</a>
+            </div>
+            <div class="col-6 text-start d-flex flex-column justify-content-around">
+                <a href="#" class="btn btn-light w-100">Gwarancja</a>
+                <a href="#" class="btn btn-light w-100">Montaż PC</a>
+                <a href="#" class="btn btn-light w-100">Usługi</a>
+                <a href="#" class="btn btn-light w-100">PayPo</a>
+                <a href="#" class="btn btn-light w-100">Raty</a>
+                <a href="#" class="btn btn-light w-100">Leasing</a>
+            </div>
         </section>
 
-        <section class="col-4 text-center">
+        <section class="col-12 col-lg-4 text-center">
             <h5 class="mb-3">Social Media</h5>
             <div class="row d-flex justify-content-around mb-3">
-                <span class="socials-circle bg-primary"><i class="fa-brands fa-facebook-square"></i></span>
-                <span class="socials-circle bg-primary"><i class="fa-brands fa-instagram"></i></span>
-                <span class="socials-circle bg-primary"><i class="fa-brands fa-youtube"></i></span>
-                <span class="socials-circle bg-primary"><i class="fa-brands fa-twitter"></i></span>
+                <a href="#" class="socials-circle btn btn-primary"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="#" class="socials-circle btn btn-primary"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="socials-circle btn btn-primary"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" class="socials-circle btn btn-primary"><i class="fa-brands fa-twitter"></i></a>
             </div>
-            <div class="row">
-                <h6 class="mb-4">Pobierz naszą aplikację mobilną</h6>
-                <div class="image col-6">
-                    <img src="assets/qrcode.svg" alt="">
+            <div class="row d-flex justify-content-center">
+                <h5 class="mb-4">Pobierz naszą aplikację mobilną</h5>
+                <div class="col-6 p-0" style="max-width: 200px;">
+                    <img class="w-75" src="assets/qrcode.svg" alt="">
                 </div>
-                <div class="col-6 d-flex flex-column justify-content-between">
+                <div class="col-6 d-flex flex-column justify-content-around justify-content-lg-between p-0"
+                    style="max-width: 200px;">
                     <div class="image">
                         <img src="assets/google.svg" alt="">
                     </div>
