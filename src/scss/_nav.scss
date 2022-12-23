@@ -10,23 +10,22 @@
     background: transparent;
 }
 
+.primary-hover:hover {
+    color: $primary;
+}
+
 select,
 select:focus {
     background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right
-        transparent !important;
-    background-position: calc(100% - 0.75rem) center !important;
-    -moz-appearance: none !important;
-    -webkit-appearance: none !important;
-    appearance: none !important;
-    padding-right: 2rem !important;
-    padding: 0.5rem !important;
+        transparent;
+    background-position: calc(100% - 0.75rem) center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    padding-right: 2rem;
+    padding: 0.5rem;
 }
 
 ul:has(a) > li:hover {
     transform: scale(1.1);
-}
-
-a:has(img) > img:hover {
-    transition: 0.5s;
-    transform: rotate(-360deg) !important;
 }
